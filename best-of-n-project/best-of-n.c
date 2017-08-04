@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 
-#define DEBUG 0 //Turns on printf statements that assist debugging
+#define DEBUG false //Turns on printf statements that assist debugging (true/false)
 
 double choose(double n, double k);
 
